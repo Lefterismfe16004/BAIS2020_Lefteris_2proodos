@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "11966e58-3806-465b-b8d8-a1f31c0d5717",
+		"name": "twitter api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://publish.twitter.com/oembed?url=https://twitter.com/uaegean/status/844503314716934145",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://publish.twitter.com/oembed?url=https://twitter.com/uaegean/status/844503314716934145",
+					"protocol": "https",
+					"host": [
+						"publish",
+						"twitter",
+						"com"
+					],
+					"path": [
+						"oembed"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "https://twitter.com/uaegean/status/844503314716934145"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
